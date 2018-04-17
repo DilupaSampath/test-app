@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-7">
+    <label>Server Name</label>  
+    <input type="text" class="form-control" [(ngModel)]= "newServername" >
+    <label>Server Content</label>
+    <input type="text" class="form-control" [(ngModel)]="newServerContent" >
+    <br>
+    <button class="btn btn-primary" (click)="mainServerAdd()" >Add Main Server</button>
+    <button class="btn btn-primary" (click)= "subServerAdd()">Add Sub Server</button>
+
+    </div>
+    
+</div>
+</div>
